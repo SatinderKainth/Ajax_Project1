@@ -26,19 +26,19 @@ function getCharacter(i) {
 function getName(i){
 	$.get("https://looney-toons-api.herokuapp.com/api/characters" , function (res){
 		console.log(res.data[i].name);
-		var htmlString = res.data[i].name;
-		//htmlString +=`<p> Name :${res.data[i].name}</p>`
+		var htmlString = "";
+		htmlString +=`Name :<h2>${res.data[i].name}</h2>`
 
 		$("#all-data").append(htmlString);
 		console.log("the Name is :" + htmlString);
-		return (htmlString);
+		//return (htmlString);
 	}
 )}
 
 function getBirthDate(i){
 	$.get("https://looney-toons-api.herokuapp.com/api/characters" , function (res){
 		var htmlString1 ="";
-		htmlString1 +=`Birthday :${res.data[i].birthDay}`
+		htmlString1 +=`Birthday :<h2>${res.data[i].birthDay}</h2>`
 		$("#all-data").append(htmlString1);
 		console.log(htmlString1);
 	}
@@ -47,7 +47,7 @@ function getBirthDate(i){
 function getSpouseName(i){
 	$.get("https://looney-toons-api.herokuapp.com/api/characters" , function (res){
 		var htmlString2 ="";
-		htmlString2 +=`Spouse Name :${res.data[i].spouse}`
+		htmlString2 +=`Spouse Name :<h2>${res.data[i].spouse}</h2>`
 		$("#all-data").append(htmlString2);
 		console.log(htmlString2);
 	}
