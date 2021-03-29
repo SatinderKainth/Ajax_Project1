@@ -1,0 +1,36 @@
+*{
+    background-color: lightslategrey;
+}
+.random{
+    margin: 20px;
+}
+h2{
+margin-top: 20px;
+padding: 15px;
+text-align: center;
+border: 2px solid black;
+border-radius: 20px;
+color: maroon;
+}
+p{
+    display: block;
+}
+.buttons{
+    text-align: center;
+}
+#btn{
+    background-color: lightseagreen;
+}
+#get-id{
+    background-color: seagreen;
+}
+#get-name{
+    background-color: lightseagreen;
+}
+#btn3{
+    background-color: seagreen;
+}
+table, tr, td{
+    border: 2px solid black;
+    text-align: center;
+}
