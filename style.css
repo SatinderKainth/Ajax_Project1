@@ -18,19 +18,15 @@ p{
 .buttons{
     text-align: center;
 }
-#btn{
-    background-color: lightseagreen;
-}
 #get-id{
-    background-color: seagreen;
+    background-color: lightseagreen;
 }
 #get-name{
-    background-color: lightseagreen;
-}
-#btn3{
     background-color: seagreen;
 }
-table, tr, td{
-    border: 2px solid black;
-    text-align: center;
+#get-birth{
+    background-color: lightseagreen;
+}
+#get-spouse{
+    background-color: seagreen;
 }
